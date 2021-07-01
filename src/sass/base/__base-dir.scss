@@ -1,7 +1,7 @@
-// GLOBALSTYLES IMPORTEDHERE
+// GLOBALSTYLES useEDHERE
 // CUSTOM RESET FILES TO OVERRIDE NORMALIZE
 // TYPOGRAPHY  H1-6 P A BLOCKQUOTE
 //BODY MAIN ARTICLE DIV
 
-@import "reset";
-@import "typography";
+@use "reset";
+@use "typography";

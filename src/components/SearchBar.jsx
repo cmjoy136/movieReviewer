@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from './Button'
 
 const SearchBar = (props)  => {
     return(
@@ -12,7 +13,7 @@ const SearchBar = (props)  => {
             />
             </div>
             <div className='search-button'>
-                <button onClick={()=> props.searchMovies(props.keyword)}>Search</button>
+                <Button handleClick={() =>  props.searchMovies(props.keyword)} content="Search"/>
             </div>
         </div>
     )

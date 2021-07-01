@@ -39,7 +39,9 @@ const SearchPage = () => {
           {results.map((movie) => (
             <li>
               <div className="movie-image">
+                <a href={`/movies/${movie.id}`}>
                 <img src={imgURL + movie.poster_path} alt="movie poster" />
+                </a>
               </div>
               <div className="movie-text">
                 <h2>{movie.title}</h2>

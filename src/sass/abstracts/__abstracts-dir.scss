@@ -1,7 +1,7 @@
 //HELPER FUNCTIONS
 //NON OUTPUT SNIPPETS
-// font face imports, reusable mixins, global variables, colors
+// font face uses, reusable mixins, global variables, colors
 
-@import"fonts";
-@import "mixins";
-@import "variables"
+@use "fonts";
+@use "mixins";
+@use "variables"

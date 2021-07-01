@@ -1,16 +1,16 @@
 @charset 'utf-8';
 
 //Abstracts
-@import "abstracts/_abstracts-dir";
+@use "abstracts/_abstracts-dir";
 
 //Base
-@import "base/_base-dir";
+@use "base/_base-dir";
 
 //Components
-@import "components/_components-dir";
+@use "components/_components-dir";
 
 //Layouts
-@import "layouts/_layouts-dir";
+@use "layouts/_layouts-dir";
 
 //Vendors
-@import "vendor/_vendor-dir"
+@use "vendor/_vendor-dir"
